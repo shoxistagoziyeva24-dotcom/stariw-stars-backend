@@ -1,7 +1,12 @@
 {
-  "name":"stariw-stars-backend",
-  "private":true,
-  "type":"module",
-  "scripts":{"start":"node server.mjs"},
-  "dependencies":{"express":"^5.1.0","telegram":"^2.26.22"}
+  "name": "stariw-stars",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "telegram": "^2.26.22"
+  }
 }
